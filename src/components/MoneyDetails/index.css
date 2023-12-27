@@ -1,0 +1,78 @@
+/* Write your CSS here */
+@media only screen and (max-width: 767px) {
+  .money-det-li-container {
+    list-style-type: none;
+  }
+  .total-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Roboto';
+  }
+  .img-blc {
+    width: 50px;
+  }
+  .total-sub-cont {
+    margin-left: 15px;
+    font-family: 'Roboto';
+  }
+  .blnc-cont {
+    border: 1px solid #84cc16;
+    background-color: #ecfccb;
+    color: #84cc16;
+  }
+  .income-cont {
+    border: 1px solid #06b6d4;
+    background-color: #cffafe;
+    color: #06b6d4;
+  }
+  .expense-cont {
+    border: 1px solid #7c3aed;
+    background-color: #cbd5e1;
+    color: #7c3aed;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .money-det-li-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .total-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin-right: 10px;
+    width: 30%;
+  }
+  .img-blc {
+    width: 50px;
+  }
+  .total-sub-cont {
+    margin-left: 15px;
+    font-family: 'Roboto';
+  }
+  .blnc-cont {
+    border: 1px solid #84cc16;
+    background-color: #ecfccb;
+    color: #84cc16;
+  }
+  .income-cont {
+    border: 1px solid #06b6d4;
+    background-color: #cffafe;
+    color: #06b6d4;
+  }
+  .expense-cont {
+    border: 1px solid #7c3aed;
+    background-color: #cbd5e1;
+    color: #7c3aed;
+  }
+}
